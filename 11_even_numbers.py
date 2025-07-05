@@ -1,2 +1,2 @@
-even_numbers = list(range(0, 14, 2))
-print(even_numbers)
+squares = [value*2+3 for value in range(1, 11)]
+print(squares)
