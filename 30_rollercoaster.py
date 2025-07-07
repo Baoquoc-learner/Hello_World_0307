@@ -1,3 +1,5 @@
+# Using int() to accept Numerical Input
+
 height = input("How tall are you, in inches? ")
 height = int(height)
 
