@@ -1,7 +1,7 @@
 
-# Returning a Simple Value
-# trả về một giá trị đơn giản
 def get_formattedName(firstName, lastName):
+    # Returning a Simple Value
+    # trả về một giá trị đơn giản
     """Trả về tên đầy đủ, được định dạng gọn gàng."""
     fullName = f"{firstName} {lastName}"  # Kết hợp tên
     return fullName.title()  # Trả về tên đã được chuyển đổi sang Title Case
@@ -32,5 +32,5 @@ musician = get_formattedName('jimi', 'hendrix')
 print(musician)
 # ở dưới có cả first, last, middle name nên là if true:
 # tại đây trong hàm sẽ trả về kết quả return được gán vào musician.
-musician = get_formattedName('john', 'lee', 'hooker')
+musician = get_formattedName('dfghj', 'lee', 'hooker')
 print(musician)
