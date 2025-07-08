@@ -1,9 +1,9 @@
-# Positional Arguments
+# Default Values, cài giá trị mặc định cho biến
 
-def describe_pet(animalType, petName):
+def describePet(petName, animalType='dog'):
     """Display information about a pet."""
     print(f"\nI have a {animalType}.")
     print(f"My {animalType}'s name is {petName.title()}.")
 
 
-describe_pet('hamster', 'harry')
+describePet('willie')
