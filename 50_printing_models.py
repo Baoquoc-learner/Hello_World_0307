@@ -23,6 +23,8 @@ for completed_model in completed_models:
 """
 print("\t==================================================")
 
+# cách thứ 2 để chỉnh sửa
+
 
 def printModels(unprintedDesigns, completedModels):
     """
