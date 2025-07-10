@@ -16,7 +16,8 @@ print('\t--------------------------------------------------')
 
 def makePizza(*toppings):
     ''' Summarize the pizza we are about to make'''
-    print("\nMaking a pizza with the following toppings:")
+    print(f"\nMaking a pizza with the following topping: {len(toppings)}")
+
     for topping in toppings:
         print(f"- {topping}")
 
@@ -25,7 +26,7 @@ makePizza('pepperoni')
 makePizza('mushrooms', 'green peppers', 'extra cheese')
 
 
-print("\t--------------------------------------------------")
+print("\t==================================================")
 
 # Mixing positional and Arbitrary Arguments.
 # Kết hợp đối số vị trí và đối số tùy ý

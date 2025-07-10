@@ -46,8 +46,10 @@ def showCompletedModels(completedModels):
         print(completedModel)
 
 
-unprintedDesigns = ['phone case', 'robot pendant', 'dodecahedron']
-completedModels = []
+Designs = ['phone case', 'robot pendant', 'dodecahedron']
+Models = []
 
-printModels(unprintedDesigns, completedModels)
-showCompletedModels(completedModels)
+printModels(Designs[:], Models)
+print(Designs)
+# printModels(Designs[:], Models)
+# showCompletedModels(Models)
