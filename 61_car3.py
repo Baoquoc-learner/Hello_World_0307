@@ -40,5 +40,4 @@ myNewCar = Car('audi', 'a4', 2024)
 print(myNewCar.getDescriptiveName())
 
 myNewCar.updateOdometer(21)
-
 myNewCar.readOdometer()
