@@ -1,5 +1,5 @@
 # Instances as Attributes
-# Các thể hiện làm thuộc tính
+# Các trường hợp làm thuộc tính
 
 class Car:
     """A simple attempt to represent a car."""
@@ -30,6 +30,17 @@ class Battery:
         # in ra mô tả của pin
         print(f"This car has a {self.batterySize} -kWh battery.")
 
+    def getRange(self):
+        """Print a statement about the range thí battery provides."""
+        if self.batterySize == 40:
+            range = 150
+        elif self.batterySize == 65:
+            range = 225
+        print(f" This car can go about {range} miles on a full charge.")
+
+    def detail(self):
+        print(f"This car has a 222 -kWh battery.")
+
 
 class ElectricCar(Car):
     """Represent aspects of a car, specific to electric vehicles"""
@@ -49,3 +60,5 @@ class ElectricCar(Car):
 myLeaf = ElectricCar('nissan', 'leaf', 2024)
 print(myLeaf.getDescriptiveName())
 myLeaf.battery.describeBattery()
+myLeaf.battery.getRange()
+myLeaf.battery.detail()
